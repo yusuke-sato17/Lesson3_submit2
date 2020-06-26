@@ -11,7 +11,7 @@ abstract class Dog: Animal {
         Log.d("kotlintest", this.name + "(" + this.age + "歳)" + "「ワンワン」")
     }
 
-    override fun move() {
+    fun move() {
         Log.d("kotlintest", this.name + "(" + this.age + "歳)" + "は全力で走った。")
     }
 }

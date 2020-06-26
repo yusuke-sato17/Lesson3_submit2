@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val human = Human(name = "佐藤", age = 22, hobby = "晩ご飯")
 
+        human.say()
         human.think()
     }
 }
